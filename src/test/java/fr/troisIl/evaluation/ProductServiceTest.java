@@ -1,6 +1,5 @@
 package fr.troisIl.evaluation;
 
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -90,11 +89,17 @@ public class ProductServiceTest {
         Product productInsert = new Product("ami",40);
         productService.insert(productInsert);
         int countAfter = count();
-        fais.TaBase = ajouteMoiSkype;
 
         db.executeUpdate("DELETE FROM Product where id = 1");
         assertEquals(countAfter-1, count());
 
     }
+
+    @Test
+    public void testgit() throws SQLException {
+        System.out.print("bonjour");
+
+    }
+
 
 }
