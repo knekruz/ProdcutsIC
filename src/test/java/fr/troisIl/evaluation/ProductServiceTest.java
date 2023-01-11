@@ -95,11 +95,5 @@ public class ProductServiceTest {
 
     }
 
-    @Test
-    public void testgit() throws SQLException {
-        System.out.print("bonjour");
-
-    }
-
 
 }
